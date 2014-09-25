@@ -1,7 +1,7 @@
 require 'pry'
 
 class Jungle
-  attr_accessor :size, :name, :location, :rainfall, :plants, :animals
+  attr_accessor :size, :name, :location, :rainfall
 
   def initialize
     puts "What is the Jungle's name?"
